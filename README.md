@@ -22,6 +22,6 @@ enterwebsiteurl.com
 wait for results
 <br>
 $ #welldone
+$ #it can scan up to 500 URLS
 
-# STILL DEVELOPING BUT EMAIL FINDING WORKS
 # THANK YOU
