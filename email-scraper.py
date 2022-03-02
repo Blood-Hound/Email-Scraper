@@ -5,7 +5,7 @@ import urllib.parse
 from collections import deque
 import re
 
-user_url = str(input('[+] Enter Target URL To Scan: '))
+user_url = str(input('[:] Enter Target URL To Scan: '))
 urls = deque([user_url])
 
 scraped_urls = set()
@@ -15,7 +15,7 @@ count = 0
 try:
     while len(urls):
         count += 1
-        if count == 100:
+        if count == 500:
             break
         url = urls.popleft()
         scraped_urls.add(url)
