@@ -5,7 +5,7 @@ This Hacking Tool works only in Kali Linux Only
 
 $ sudo apt update
 $ sude apt install git
-$ git clone
+$ git clone https://github.com/Blood-Hound/Email-Scraper.git
 $ cd your/directory
 $ python3 emailscraper.py
 
